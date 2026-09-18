@@ -15,6 +15,6 @@ public class Date {
         System.out.print("Enter the year: ");
         year=newScanner.nextInt();
 
-        System.out.print(month+"/"+day+"/"+year + "\n"+months[month-1]+" "+day+", "+year + "\n"+day+" "+months[month-1]+" "+year);
+        System.out.print("\n"+month+"/"+day+"/"+year + "\n"+months[month-1]+" "+day+", "+year + "\n"+day+" "+months[month-1]+" "+year);
     }
 }
